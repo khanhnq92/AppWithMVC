@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BraVC.h
 //  ExampleWithMVC
 //
 //  Created by Huy Quang Ngo on 11/10/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BraVC : UIViewController
 
 @end
-

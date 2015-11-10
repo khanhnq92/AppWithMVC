@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		03F254DA1BF1E094006181E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F254D91BF1E094006181E0 /* main.m */; };
 		03F254DD1BF1E094006181E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F254DC1BF1E094006181E0 /* AppDelegate.m */; };
-		03F254E01BF1E094006181E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F254DF1BF1E094006181E0 /* ViewController.m */; };
 		03F254E31BF1E094006181E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F254E11BF1E094006181E0 /* Main.storyboard */; };
 		03F254E51BF1E094006181E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F254E41BF1E094006181E0 /* Assets.xcassets */; };
 		03F254E81BF1E094006181E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F254E61BF1E094006181E0 /* LaunchScreen.storyboard */; };
@@ -31,6 +30,7 @@
 		03F255351BF1E573006181E0 /* phonglan0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03F2552E1BF1E573006181E0 /* phonglan0.jpg */; };
 		03F255361BF1E573006181E0 /* phuongnhung0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03F2552F1BF1E573006181E0 /* phuongnhung0.jpg */; };
 		03F2553A1BF1EF44006181E0 /* VictoryaSecret.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03F255391BF1EF44006181E0 /* VictoryaSecret.plist */; };
+		03F2553E1BF1F352006181E0 /* BraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F2553D1BF1F352006181E0 /* BraVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,6 @@
 		03F254D91BF1E094006181E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03F254DB1BF1E094006181E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03F254DC1BF1E094006181E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		03F254DE1BF1E094006181E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		03F254DF1BF1E094006181E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		03F254E21BF1E094006181E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03F254E41BF1E094006181E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03F254E71BF1E094006181E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,6 +81,8 @@
 		03F2552E1BF1E573006181E0 /* phonglan0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phonglan0.jpg; sourceTree = "<group>"; };
 		03F2552F1BF1E573006181E0 /* phuongnhung0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phuongnhung0.jpg; sourceTree = "<group>"; };
 		03F255391BF1EF44006181E0 /* VictoryaSecret.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = VictoryaSecret.plist; path = Model/VictoryaSecret.plist; sourceTree = "<group>"; };
+		03F2553C1BF1F352006181E0 /* BraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BraVC.h; path = ViewController/BraVC.h; sourceTree = "<group>"; };
+		03F2553D1BF1F352006181E0 /* BraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BraVC.m; path = ViewController/BraVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +113,7 @@
 		03F254CC1BF1E094006181E0 = {
 			isa = PBXGroup;
 			children = (
+				03F2553B1BF1F016006181E0 /* ViewController */,
 				03F255281BF1E565006181E0 /* Face */,
 				03F255171BF1E313006181E0 /* photo */,
 				03F2550B1BF1E11A006181E0 /* Model */,
@@ -136,9 +137,6 @@
 			children = (
 				03F254DB1BF1E094006181E0 /* AppDelegate.h */,
 				03F254DC1BF1E094006181E0 /* AppDelegate.m */,
-				03F254DE1BF1E094006181E0 /* ViewController.h */,
-				03F254DF1BF1E094006181E0 /* ViewController.m */,
-				03F254E11BF1E094006181E0 /* Main.storyboard */,
 				03F254E41BF1E094006181E0 /* Assets.xcassets */,
 				03F254E61BF1E094006181E0 /* LaunchScreen.storyboard */,
 				03F254E91BF1E094006181E0 /* Info.plist */,
@@ -194,6 +192,16 @@
 				03F2552F1BF1E573006181E0 /* phuongnhung0.jpg */,
 			);
 			name = Face;
+			sourceTree = "<group>";
+		};
+		03F2553B1BF1F016006181E0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				03F254E11BF1E094006181E0 /* Main.storyboard */,
+				03F2553C1BF1F352006181E0 /* BraVC.h */,
+				03F2553D1BF1F352006181E0 /* BraVC.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,11 +350,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F254E01BF1E094006181E0 /* ViewController.m in Sources */,
 				03F255141BF1E19E006181E0 /* DataManager.m in Sources */,
 				03F254DD1BF1E094006181E0 /* AppDelegate.m in Sources */,
 				03F255111BF1E180006181E0 /* VSModel.m in Sources */,
 				03F254DA1BF1E094006181E0 /* main.m in Sources */,
+				03F2553E1BF1F352006181E0 /* BraVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +394,7 @@
 				03F254E21BF1E094006181E0 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ExampleWithMVC;
 			sourceTree = "<group>";
 		};
 		03F254E61BF1E094006181E0 /* LaunchScreen.storyboard */ = {
@@ -570,6 +579,7 @@
 				03F255041BF1E094006181E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03F255051BF1E094006181E0 /* Build configuration list for PBXNativeTarget "ExampleWithMVCTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +588,7 @@
 				03F255071BF1E094006181E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03F255081BF1E094006181E0 /* Build configuration list for PBXNativeTarget "ExampleWithMVCUITests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +597,7 @@
 				03F2550A1BF1E094006181E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

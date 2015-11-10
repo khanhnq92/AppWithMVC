@@ -17,7 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    DataManager* manager=[DataManager getSingleton];
     return YES;
 }
 
